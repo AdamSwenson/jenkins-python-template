@@ -27,13 +27,13 @@ All other programs will be installed within virtualenv.
 
 Download jenkins-cli
 ```shell
-wget http://jenkins-server:8080/jnlpJars/jenkins-cli.jar
+# wget http://jenkins-server:8080/jnlpJars/jenkins-cli.jar
 ```
 
 Then, install it!
 ```shell
-java -jar jenkins-cli.jar -s http://jenkins-server:8080 install-plugin  sloccount xunit violations warnings cobertura disk-usage git
-java -jar jenkins-cli.jar -s http://jenkins-server:8080 safe-restart
+# java -jar jenkins-cli.jar -s http://jenkins-server:8080 install-plugin  sloccount xunit violations warnings cobertura disk-usage git
+# java -jar jenkins-cli.jar -s http://jenkins-server:8080 safe-restart
 ```
 
 Create a new Job.
